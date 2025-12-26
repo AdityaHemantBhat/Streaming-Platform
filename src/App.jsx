@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import ContinueWatching from "./components/ContinueWatching";
 import YouMightLike from "./components/YouMightLike";
-
+import Footer from "./components/Footer";
 
 //data for all things
 const heroData = {
@@ -243,6 +243,8 @@ function App() {
           <ContinueWatching data={continueWatchingData} />
           <YouMightLike data={youMightLikeData} />
         </main>
+
+        <Footer />
       </div>
     </div>
   );
